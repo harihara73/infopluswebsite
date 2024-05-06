@@ -1,0 +1,453 @@
+/* Custom CSS for background image */
+body {
+margin: 0% !important;
+padding: 0% !important;
+
+  }
+  .pad{
+    padding: 0% !important;
+    margin: 0% !important;
+  }
+  img{
+    max-width:100%;height:auto;
+  }
+ .logo1{
+    display: none;
+    transition: 0.3ms ease-in;
+  }
+  #scrollImage {
+    /* Adjust the width as needed */
+   
+    display: flex;
+    transition: display 0.3ms ease-in-out;
+   
+   
+    /* Smooth transition for opacity change */
+}
+.logo2{
+  display: none;
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+  font-size: large;
+}
+ .navbar-brand img {
+    height: 40px; /* Adjust logo height as needed */
+    font-size: large;
+    margin-right: 20em;
+
+  }
+  .ms-1 {
+    margin-right: (spacer * .25) !important;
+  }
+  .navbar {
+    min-height: 50px; /* Set minimum height for navbar */
+    transition: all 0.5s;
+  }
+.navbar-nav .nav-link {
+    padding-top: 8px; /* Adjust top padding for nav links */
+    padding-bottom: 8px; /* Adjust bottom padding for nav links */
+  }
+
+.navbar-scrolled{
+  background-color: #f1f1f1;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+  opacity: 85%;
+}
+
+.navfontsize{
+  width: 150px;
+  font-size: x-large;
+}
+
+.ourwrkhome{
+  width: 50em;
+  font-size: xx-large;
+}
+
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0; /* Initially hide the sidebar off-screen on the right side */
+  background-color: #5c5c5c;
+  backdrop-filter: blur(100px) !important;
+  z-index: 999;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  opacity: 95%;
+  
+}
+.sidebar li{
+  width: 100%;
+}
+
+.neatlogo{
+  position: relative;
+  transform: scale(0.5);
+  margin-left: 1px;
+}
+
+
+.content {
+  margin-right: 0;
+  transition: margin-right 0.3s ease;
+}
+.bgvideos{
+  background-color: transparent;
+  backdrop-filter: blur(100%);
+ 
+}
+
+
+
+.vclass{
+  border-radius: 30px;
+  z-index: 1 !important;
+}
+
+  .btn-group {
+    margin-bottom: 20px;
+  }
+
+
+
+   
+      
+      .video-container {
+        position: fixed;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1 !important;
+      }
+  
+      video {
+        min-width: 100%;
+        min-height: 100%;
+      }
+  
+      .content {
+        position: relative;
+        z-index: 1;
+      }
+      .full{
+        height: 100vh !important;
+        width: 100vw !important;
+        overflow: hidden !important;
+      }
+      .full video{
+        z-index: -1;
+        position: absolute !important;
+        width: auto !important;
+        height: auto !important;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+  
+      .gap
+      {
+margin-top: 60em;
+text-align: center;
+color: #ffffff;
+
+      }
+.gap2{
+      margin-top: 180px;
+        border-radius: 20px;
+}
+.gap3{
+  margin-top: 40em;
+    border-radius: 20px;
+}
+      .bgall {
+        background: linear-gradient(-45deg, #dabbb1, #f5b4cd, #ace9ff, #a0c7be);
+        background-size: 400% 400%;
+        animation: gradient 8s ease infinite;
+        opacity: 96%;
+      
+        
+    }
+    .bgalla {
+      background: linear-gradient(-45deg, #f59dc1, #cf8a90, #dfbfaf, #84d7c4);
+      background-size: 400% 400%;
+      animation: gradient 8s ease infinite;
+      opacity: 96%;
+    
+      
+  }
+
+    
+
+    .bgallpe {
+      background: linear-gradient(-56deg, #c3532e, #7e9fcf, #d1ca91, #a0c7be);
+      background-size: 400% 400%;
+      animation: gradient 8s ease infinite;
+      opacity: 96%;
+    
+      
+  }
+    
+    
+
+    .mute-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+    
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    @media only screen and (max-width: 620px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width: 100%;
+      }
+    }
+    @media(min-width: 1200px){
+      .hideOnbig{
+      display: none !important; }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .backmag2{
+        margin-left: -16em !important;
+      }
+      
+    }
+    @media only screen and (max-width: 812px) {
+      .backmag2{
+        margin-left: -35em !important;
+        height: -webkit-fill-available;
+      }
+      
+    }
+
+  /*ourwork*/
+
+    .zoom {
+    
+      transition: transform .2s; /* Animation */
+     
+    }
+    .zoom:hover {
+      transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    .zoom11 {
+    
+      transition: transform .2s; /* Animation */
+     
+    }
+    .zoom11:hover {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+
+    .watch{
+      opacity: 70%;
+      transition: 5ms;
+
+    }
+    .watch:hover{
+      opacity: 100%;
+      transform: scale(1.2);
+    }
+  
+    
+    /*about page*/
+    .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      margin-top: 7.7em;
+    }
+    .container-fluid {
+      padding: 60px 50px;
+    }
+    .bg-grey {
+      background-color: #f6f6f6;
+    }
+    .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+    }
+    .logo {
+      color: #f4511e;
+      font-size: 200px;
+    }
+    .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+    }
+    .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+    }
+    .item span {
+      font-style: normal;
+    }
+    @media screen and (max-width: 768px) {
+      .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+      }
+    }
+    
+    @media screen and (max-width: 1200px) {
+      .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -7em;
+        margin-left: 0em;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      .navbar-scrolled .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -5em;
+        margin-left: 38em;
+
+      }
+    }
+    
+
+    @media screen and (max-width: 897px) {
+      .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -4em;
+        margin-left: -0em;
+
+      }
+    }
+    @media screen and (max-width: 897px) {
+      .navbar-scrolled .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -3em;
+        margin-left: 27em;
+
+      }
+    }
+
+    @media screen and (max-width: 641px) {
+      .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -4em;
+        margin-left: -5em;
+
+      }
+    }
+
+
+
+    @media screen and (max-width: 641px) {
+      .navbar-scrolled .mag {
+        position: absolute;
+        text-align: center;
+        margin-top: -2em;
+        margin-left: 13em;
+
+      }
+    }
+    
+    /*Anatomy*/
+    .flot{
+      float: inline-end;
+     }
+    
+    /*contactus*/
+    .gapc{
+      margin-top: 7.7em;
+
+    }
+    .magin1em{
+      margin-top: 2em;
+    }
+    .bgall2 {
+      background: linear-gradient(45deg, #ffffff, #9bcad1, #ffffff, #444444);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      }
+      .bgallcu{
+        background: linear-gradient(-45deg, #dabbb1, #f5b4cd, #ace9ff, #a0c7be);
+        background-size: 400% 400%;
+        animation: gradient 8s ease infinite;
+        }
+       
+  /*news*/
+  .jumbotron1 {
+   
+    color: #fff;
+    padding: 100px 25px;
+    margin-top: 9em;
+  }
+  .newsbg1 {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  
+    /*animations*/
+    .tran{
+      animation: transitionIn 0.75s;
+    }
+    
+  @keyframes transitionIn {
+
+    from {
+      opacity: 0;
+      
+    }
+
+    to{
+      opacity: 1;
+      
+    }
+  }
