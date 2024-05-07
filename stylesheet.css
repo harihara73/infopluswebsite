@@ -33,12 +33,19 @@ padding: 0% !important;
   align-content: center;
   font-size: large;
 }
- .navbar-brand img {
-    height: 40px; /* Adjust logo height as needed */
-    font-size: large;
+ .imgnav {
+    max-width: 80%;
+    height: 100px; /* Adjust logo height as needed */
     margin-right: 20em;
 
   }
+  @media only screen and (max-width: 812px) {
+    .imgnav{
+      max-height: 50px;
+    }
+    
+  }
+
   .ms-1 {
     margin-right: (spacer * .25) !important;
   }
@@ -61,6 +68,9 @@ padding: 0% !important;
   width: 150px;
   font-size: x-large;
 }
+
+
+
 
 .ourwrkhome{
   width: 50em;
