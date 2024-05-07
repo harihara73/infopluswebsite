@@ -1,9 +1,19 @@
 
 
-let vid = document.getElementById("myVideo"); 
+let vid1 = document.getElementById("myVideo1"); 
 
 function playVid() { 
-  vid.play(); 
+  vid1.play(); 
+} 
+let vid2 = document.getElementById("myVideo2"); 
+
+function playVid() { 
+  vid2.play(); 
+} 
+let vid3 = document.getElementById("myVideo3"); 
+
+function playVid() { 
+  vid3.play(); 
 } 
  
 
