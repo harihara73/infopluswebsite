@@ -19,11 +19,11 @@
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="11000">
         <div class="full tran">
-          <video autoplay controls muted loop>
+          <video autoplay muted loop controls id="myVideo">
             <source src="videos/comp/heart 2.mp4" alt="watch" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video autoplay controls muted loop class="phone">
+          <video autoplay controls muted loop class="phone" id="myVideo">
             <source src="videos/comp/heart 1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -31,15 +31,16 @@
         <div class="carousel-caption d-md-block">
           <h1 class="display-1">First slide label</h1>
           <p>Some representative placeholder content for the first slide.</p>
+          <button onclick="playVid()" class="btn btn-outline-danger" type="button">Play Video</button>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="14000">
         <div class="full tran">
           <video autoplay muted loop controls>
-            <source src="videos/comp/skeleton 2.mp4" type="video/mp4">
+            <source src="videos/comp/skeleton 2.mp4" id="myVideo2" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video autoplay controls muted loop class="phone">
+          <video autoplay controls muted loop class="phone" id="myVideo2">
             <source src="videos/comp/skeleton.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -47,15 +48,16 @@
         <div class="carousel-caption d-md-block">
           <h1 class="display-1">Second slide label</h1>
           <p>Some representative placeholder content for the second slide.</p>
+          <button onclick="playVid()" class="btn btn-outline-danger" type="button">Play Video</button>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="5000">
         <div class="full tran">
-          <video autoplay muted loop controls>
+          <video autoplay muted loop controls id="myVideo">
             <source src="videos/comp/blood flow final 2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <video autoplay controls muted loop class="phone">
+          <video autoplay controls muted loop class="phone" id="myVideo">
             <source src="videos/comp/blood flow final.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -63,6 +65,7 @@
         <div class="carousel-caption d-md-block">
           <h1 class="display-1">Third slide label</h1>
           <p>Some representative placeholder content for the third slide.</p>
+          <button onclick="playVid()" class="btn btn-outline-danger" type="button">Play Video</button>
         </div>
       </div>
     </div>

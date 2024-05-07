@@ -1,5 +1,11 @@
 
 
+let vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+ 
 
 const navE1 = document.querySelector('.navbar');
 
