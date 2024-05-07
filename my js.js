@@ -2,17 +2,17 @@
 
 let vid1 = document.getElementById("myVideo1"); 
 
-function playVid() { 
+function playVid1() { 
   vid1.play(); 
 } 
 let vid2 = document.getElementById("myVideo2"); 
 
-function playVid() { 
+function playVid2() { 
   vid2.play(); 
 } 
 let vid3 = document.getElementById("myVideo3"); 
 
-function playVid() { 
+function playVid3() { 
   vid3.play(); 
 } 
  
