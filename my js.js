@@ -1,6 +1,6 @@
 
 
-let vid1 = document.getElementById("myVideo1"); 
+/*let vid1 = document.getElementById("myVideo1"); 
 
 function playVid1() { 
   vid1.play(); 
@@ -14,7 +14,12 @@ let vid3 = document.getElementById("myVideo3");
 
 function playVid3() { 
   vid3.play(); 
-} 
+} */
+
+/* Get the element you want displayed in fullscreen */ 
+
+
+
  
 
 const navE1 = document.querySelector('.navbar');

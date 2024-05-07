@@ -41,10 +41,26 @@ padding: 0% !important;
   }
   @media only screen and (max-width: 812px) {
     .imgnav{
-      max-height: 50px;
+      max-height: 80px;
     }
     
   }
+
+  .playb{
+    display: none !important;
+  }
+  @media only screen and (max-width: 812px) {
+    .playb{
+      display: flex !important;
+      
+  
+    }
+    
+  }
+  .center1{
+    text-align: -webkit-center;
+  }
+
 
   .ms-1 {
     margin-right: (spacer * .25) !important;
@@ -92,7 +108,7 @@ padding: 0% !important;
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: flex-start !important;
-  opacity: 95%;
+  opacity: 97%;
   
 }
 .sidebar li{
@@ -283,6 +299,12 @@ color: #ffffff;
     .zoom11:hover {
       transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
+    @media only screen and (max-width: 812px) {
+      .zoom:hover, .zoom11:hover {
+        transform: scale(1.0);
+      }
+      
+    }
 
 
     .watch{
@@ -294,7 +316,11 @@ color: #ffffff;
       opacity: 100%;
       transform: scale(1.2);
     }
-  
+    .bgallwk{
+      background: linear-gradient(137deg, #c34b24, #50688b, #dc3545, #44c7a9);
+      background-size: 400% 400%;
+      animation: gradient 8s ease infinite;
+      }
     
     /*about page*/
     .jumbotron {
