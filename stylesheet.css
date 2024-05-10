@@ -33,6 +33,11 @@ padding: 0% !important;
   align-content: center;
   font-size: large;
 }
+.center1{
+  text-align: center !important;
+  align-content: center;
+}
+
  .imgnav {
     max-width: 80%;
     height: 100px; /* Adjust logo height as needed */
@@ -183,6 +188,8 @@ padding: 0% !important;
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      
       
   
       .gap
@@ -323,12 +330,32 @@ color: #ffffff;
       }
     
     /*about page*/
-    .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
-      margin-top: 7.7em;
+    .full1{
+      height: 100vh !important;
+      width: 100vw !important;
+      overflow: hidden !important;
     }
+    .full1 video{
+      z-index: -1;
+      position: absolute !important;
+      width: auto !important;
+      height: auto !important;
+      min-width: 100%;
+      min-height: 100%;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -46%);
+    }
+    @media only screen and (max-width: 812px) {
+      .full1 {
+        height: 60vh !important;
+        
+      }
+      
+    }
+
+  
+
     .container-fluid {
       padding: 60px 50px;
     }
@@ -440,7 +467,7 @@ color: #ffffff;
 
       }
     }
-    
+  
     /*Anatomy*/
     .flot{
       float: inline-end;

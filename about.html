@@ -10,7 +10,24 @@
 </head>
 <body>
 
+  <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="11000">
+        <div class="full1 tran">
+          <video autoplay playsinline muted>
+            <source src="videos/logo_2.mp4" alt="watch" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <video autoplay playsinline muted class="phone">
+            <source src="videos/logo_1 final.mp4" type="video/mp4">
+            Your browser does not support the video tag.
 
+          </video>
+       </div>
+      </div>
+
+    </div>
+  </div>
 
   <nav class="navbar navbar-expand-xl fixed-top bgallcu">
     <div class="container">
@@ -40,7 +57,7 @@
             <button onclick="document.location='ourwork.html'" class="ms-2 rounded-pill btn-lg btn btn-outline-light navfontsize" type="button">OurWork</button>
           </li>
           <li class="nav-item mt-2">
-            <button onclick="document.location='about.html'" class="ms-2 rounded-pill btn-lg btn btn-info navfontsize" type="button">About</button>
+            <button onclick="document.location='about.html'" class="ms-2 rounded-pill btn-lg btn btn-danger navfontsize" type="button">About</button>
           </li>
           <li class="nav-item mt-2">
             <button onclick="document.location='contactus.html'" type="button" class="btn btn-lg btn-secondary rounded-pill ms-2 navfontsize">ContactUs</button>
@@ -67,20 +84,16 @@
       </div>
     </div>
   </nav>
-
-  <div class="jumbotron text-center tran">
-    <h1 class="display-1">Infoplus</h1>
-    <p>We specialize in blablabla</p>
-
-  </div>
   <!-- Container (About Section) -->
   <div class="container-fluid tran">
     <div class="row shadow">
-      <div class="col-sm-12">
-        <h4 text-center>Born in 2000</h4>
-        <p text-center>is a forward-looking Information technology company focused on building products, services, staffing, consulting, and digital transformation, needed for next-generation. We combine the power of technology with our culture: Quality, Innovation, and customer empathy, Infoplus Technologies UK Ltd is at the forefront in providing a comprehensive portfolio of services to cater to the needs of clients strategies in the evolving world of digital.</p>
-        <p text-start>Infoplus Technologies Headquartered at Borehamwood, United Kingdom, we challenge industry norms by holding ourselves accountable through our fixed-price and ongoing service contract methods, with a unique performance-pricing model.</p>
-        <button onclick="document.location='contactus.html'" type="button" class="btn btn-default btn-lg btn-outline-dark m-2">Get in Touch</button>
+      <div class="col-12 text-center">
+
+        <h2>Born in 2000</h2>
+        <p class="fs-4 text-center">Is a forward-looking Information technology company focused<br> on building products, services, staffing, consulting, and digital <br>transformation, needed for next-generation. We combine the <br>power of technology with our culture: Quality, Innovation, and <br>customer empathy, Infoplus Technologies UK Ltd is at the forefront<br> in providing a comprehensive portfolio of services to cater to the <br>needs of clients strategies in the evolving world of digital.</p>
+        <p class="fs-4 text-center">Infoplus Technologies Headquartered at Borehamwood, United Kingdom,<br> we challenge industry norms by holding ourselves accountable<br> through our fixed-price and ongoing service contract methods, <br>with a unique performance-pricing model.</p>
+        <p>
+        <button onclick="document.location='contactus.html'" type="button" class="btn btn-default btn-lg btn-outline-dark m-2">Get in Touch</button></p>
       </div>
     </div>
   </div>
@@ -88,10 +101,18 @@
     <div class="row shadow text-center">
       <div class="col-md-12">
         <h2>Our Values</h2>
-        <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
-        <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
+
+        <p class="fs-4 text-center"><strong>MISSION:</strong> At Learn Pharma, we are dedicated in providing quality <br>education that transcends boundaries, fostering limitless learning opportunities<br> and
+          unlocking endless possibilities. Through our innovative digital classes,<br>
+          we empower learners to explore the dynamic field of pharmaceutical<br>
+          sciences, igniting their passion for continuous growth and development.</p>
+        <p class="fs-4 text-center"><strong>VISION:</strong> We believe in cultivating critical thinking skills, creativity, and a<br>
+          thirst for knowledge that extends beyond the classroom.Together, we<br>
+          aspire to create a brighter tomorrow where quality education is<br>
+          accessible to all, and learners are empowered to realize their full<br>
+          potential.</p>
       </div>
-    </div>
+      </div>
   </div>
   <!-- Container (Services Section) -->
   <section id="f1">
@@ -100,6 +121,21 @@
     <h4>What we offer</h4>
     <br>
     <div class="row shadow">
+      <div class="col-sm-6">
+        <span><img src="images/icons/1st.png" alt="icon"></span>
+        <h3>Worlds 1st</h3>
+        <h4>3D classroom</h4>
+        <p>Knowledge that extends beyond the classroom</p>
+      </div>
+      <div class="col-sm-6">
+        <span><img src="images/icons/experience in all.png" alt="icon"></span>
+        <h3>11</h3>
+        <h4>Years Experience</h4>
+        <p>In 3D 2D Visual learning</p>
+      </div>
+    </div>
+    <div class="row shadow mt-4">
+      <h3>In B.Pharmacy We have</h3>
       <div class="col-sm-4">
         <span><img src="images/icons/anatomy-ps.png" alt="icon"></span>
         <h3>70</h3>
@@ -107,7 +143,7 @@
         <p>Customizable as per Needs</p>
       </div>
       <div class="col-sm-4">
-        <span><img src="images/icons/3D.png" alt="icon"></span>
+        <span><img src="images/icons/3d-services-crystal-logo-16.png" alt="icon"></span>
         <h3>12000</h3>
         <h4>MINUTES OF VISUALS</h4>
         <p>3D Based Demonstrations including Industrial and Real life Examples</p>
@@ -119,32 +155,21 @@
         <p>Customised Visual Rich Content</p>
       </div>
     </div>
-    <h2 class="display-6 m-4">We are in</h2>
-    <div class="row shadow">
-      <div class="col-sm-4">
-        <span><img src="images/icons/MEDICINAL CHEMISTRY.png" alt="icon"></span>
-        <h4>MEDICINAL CHEMISTRY</h4>
-      </div>
-      <div class="col-sm-4">
-        <span><img src="images/icons/human body.png" alt="icon"></span>
-        <h4>PHARMACOLOGY</h4>
-      </div>
-      <div class="col-sm-4">
-        <span><img src="images/icons/CLINICAL RESEARCH.png" alt="icon"></span>
-        <h4>CLINICAL RESEARCH</h4>
-      </div>
-    </div>
     <br><br>
     <div class="row">
       <div class="col-sm-12">
         <span class="glyphicon glyphicon-leaf logo-small"></span>
         <h2>Each Subject is :</h2>
-        <ul style="list-style-type:disc;" class="text-lg-start" >
+        <ul style="list-style-type:disc;" class="text-lg-start fs-5" >
           <li>Customized as per respective University/Technical board syllabus.</li>
           <li>Compiled in non-linear methodology for quick access to any topic.</li>
           <li>Provided with text content, sketch and images, visual demonstrations of construction and working of all the processes and equipment.</li>
           <li>Has approximately 3 hour visuals per subject..</li>
           <li>Provided with verified web links and video links for further reference.</li>
+          <li>LearnPharm provides a "Visual learning solution & Virtual lab solution" which gives a near "hands on" experience to the learner.</li>
+          <li>It presents the entire subject in customized content and demonstrations, designed to impart in depth subject understanding, by integrating three-dimensional visual thinking into critical thinking, thus enhancing knowledge and employability.</li>
+          <li>The database is prepared out of extensive consultation of standard text books, scrutinized by a team of skilled Professors, experts from industry and developers with due academic credibility.</li>
+          <li>It serves to make the student more industry ready, and facilitates filling the gap between academia and industry, therefore fulfilling the growing demand of skilled personnel to the various facets of the pharmaceutical industry.</li>
         </ul>
         </div>
     </div>
@@ -240,16 +265,13 @@
           <!--Grid column-->
           <!--Grid column-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-4">Opening hours</h5>
-            <table class="table text-center text-white">
+            <table class="table text-center text-white table-borderless">
               <tbody class="font-weight-normal">
                 <tr>
-                  <td>Mon - sat :</td>
-                  <td>9am - 6pm</td>
+                  <td><button onclick="document.location='contactus.html'" type="button" class="btn btn-default btn-lg btn-outline-light m-2">Get in Touch</button></td>
                 </tr>
                 <tr>
-                  <td>Sunday :</td>
-                  <td>Holiday</td>
+                  <td><button onclick="document.location='about.html'" class="btn btn-default btn-lg btn-outline-light m-2" type="button">About US</button></td>
                 </tr>
               </tbody>
             </table>
